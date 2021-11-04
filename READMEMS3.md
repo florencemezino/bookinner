@@ -79,8 +79,6 @@ Below we can find more about their profile :
 * As a reader, I want to have so that I can 
 
 
-
-
 ### Design
 
 1. Colour Scheme
@@ -250,23 +248,23 @@ SECRET_KEY :
 
 ### Code
 
-1. ... page
+1. Books page
 * Code Institute task's manager mini project : [Here](https://github.com/Code-Institute-Solutions/TaskManagerAuth)
 * 
 * 
 
 
-2. ... page
+2. Dimensions page
 * 
 * 
 * 
 
-3. ... page
+3. Experts page
 * 
 * 
 * 
 
-4. ... page
+4. InnerLab page
 * 
 * 
 * 
