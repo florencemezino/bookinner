@@ -9,26 +9,43 @@
 ### End user 
 
 1. Goal
-End users for this project are :
-- users who wants to focus on their personal development by reading more.
+End users for this project are readers who wants to focus on their personal development. 
 
-2.  Profiles 
 
-a. Readers
+2.  Profile / Persona : Readers
 
-PERSONA 
+Readers want to focus on their personnal development. They want to take time to read more and share their reviews. They want to have the possibility to buy, sell or simply exchange books.
 
-Readers interacting with the site are English speaker. They are keen to learn by themself and value reading. Below we can find more about their profile :
 
-* 
-* 
+* identity and behaviours
+
+Readers interacting with the site are English speaker and we can determine different profiles :
+- beginner : user who reads very rarely like 1 book every 6 months and wish to read more.
+- intermediate : user who reads 1 book every month or two months and wants to read more.
+- advanced : user who reads several books a month and is keen to share their reviews online / interact with a community. They have a big library and wish even to sell or even exchange books.
+
+* expectations 
+- Readers want to extend their knowledge on different dimensions of personal development such as nutrition, career, finance etc.
+- Readers have a strong willingness to integrate reading more books in their personal development.
+- Readers want to have access to a large library of books about personal development.
+- Readers wants to read reviews with great insights to esily choose their next reading
+
+* restraints
+- Lack of time
+
+
+Below we can find more about their profile :
+
+* user who wants to read more as part of their personal development
+* user who wants to read book recommandations / reviews from experts to 
+* user who wants to have a space to leave reviews about their readings
 * 
 
 ### User stories
 
 1. First Time Visitor Goals
 
-* As a reader, I want to have so that I can 
+* As a reader, I want to  have so that I can 
 * As a reader, I want to have so that I can 
 * As a reader, I want to have so that I can 
 * As a reader, I want to have so that I can 
@@ -62,15 +79,16 @@ Readers interacting with the site are English speaker. They are keen to learn by
 * As a reader, I want to have so that I can 
 
 
+
+
 ### Design
 
 1. Colour Scheme
 The main colours used for this project are as follow : 
-* `...`: 
-* `...`: 
-* `...`: 
-* `...`: 
-* `...`: 
+* `...`: blue
+* `...`: purple
+* `...`: white
+
 
 2. Typography
 The `...` font is the main font used throughout the whole website with `sans-serif`
@@ -97,13 +115,10 @@ reading list, rate books, and get personalized recommendations
 
 #### Books
 * The `Books` page features a special hero image. The purpose of this hero image element is to give maximum impact when opening the website.
-* There is a main heading in which you can read "Bookinner". The idea behind "Bookinner" is to reflect how reading books can impact someone inner self and contibute to personnal development.
-* The sub heading is short, impactful and invite any users to invest time in reading.
+* There is a main heading in which you can read "Bookinner". The idea behind "Bookinner" is to reflect how reading books can impact someone inner self and contibute to their personnal development.
+* The sub heading is short, impactful and invite any users to invest time in reading. : "Become your best self"
 * 
 * 
-* At the bottom of the page (above the footer) there is two call to action :
-    - `...`: 
-    - `...` : 
 
 #### Dimensions
 * The `Dimensions` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
@@ -121,20 +136,20 @@ reading list, rate books, and get personalized recommendations
     - Quality of life
     - Life vision
 
-
 #### Experts
 * The `Experts` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
-* This page displays 
-* Users can 
+* This page displays interviews about successful people and their readings recommandations
+* Users can find also multiples articles on how to integrate more reading into their life and make it part of their persoal development.
+For example : 10 ways to make mre time for reading
 
 #### My InnerLab
-* The `...` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
+* The `InnerLab` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
 * Users can set their reading goals 
 * Users can build a reading list paired with a time tracker with reminders
-* Users can have access to an history of their book reviews
 * Users can sell their books
 * Users can exchange their books
 * Users can give away their book in exchange of discounts
+* Users can have access to an history of their activities. A record is accessible if they bought a book, exchange a book or leave a review etc.
 
 
 * Users can learn more about the activity and the purpose of the website thanks to a small description.
