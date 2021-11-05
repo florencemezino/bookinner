@@ -31,7 +31,7 @@ Readers interacting with the site are English speaker and we can determine diffe
 - Readers wants to read reviews with great insights to esily choose their next reading
 
 * restraints
-- Lack of time
+- 
 
 
 Below we can find more about their profile :
@@ -43,22 +43,22 @@ Below we can find more about their profile :
 
 ### User stories
 
+useful, equitable, enjoyable, and usable experiences.
+
 1. First Time Visitor Goals
 
-* As a reader, I want to  have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
+* As a reader, I want to have access to a great book library online so that I can have plenty of choice for my next book to read
+* As a reader, I want to buy a book in few steps so that I can progress quickly on my reading goals
+* As a reader, I want to have access to reviews about books so that it can help me to choose the next book to read
+* As a reader, I want to sell books I read already so that I can invest in buying new ones
+* As a reader, I want to exchange the books I read with other readers so that I can save money and interact with the readers community
+
 
 
 2. Returning Visitors Goals
 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
+* As a reader, I want to be encouraged to read more so that I can reach my goal
+* As a reader, I want to see my reading goal progress so that I can be motivated to read more
 * As a reader, I want to have so that I can 
 * As a reader, I want to have so that I can 
 * As a reader, I want to have so that I can 
