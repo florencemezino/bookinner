@@ -39,7 +39,6 @@ Below we can find more about their profile :
 * user who wants to read more as part of their personal development
 * user who wants to read book recommandations / reviews from experts to 
 * user who wants to have a space to leave reviews about their readings
-* 
 
 ### User stories
 
@@ -54,29 +53,17 @@ useful, equitable, enjoyable, and usable experiences.
 * As a reader, I want to exchange the books I read with other readers so that I can save money and interact with the readers community
 
 
-
 2. Returning Visitors Goals
 
-* As a reader, I want to be encouraged to read more so that I can reach my goal
-* As a reader, I want to see my reading goal progress so that I can be motivated to read more
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-
+* As a reader, I want to be encouraged to read more so that I can reach my goal to read more
+* As a reader, I want to see my reading goals progress so that I can be motivated to read more
+* As a reader, I want to be able to edit the book I uploaded online to sell so that I can market it better
+* As a reader, I want to leave a review about the books I read so that I can share my experience with the readers community
 
 3. Frequent User Goals
 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
-* As a reader, I want to have so that I can 
+* As a reader, I want to have te possibility to interact with the ready community via the reviews so that I can get more more detailed insights about personal developement
+* As a reader, I want to be informed about books that we will be published soon so that I can stay up to date about interesting readings. 
 
 
 ### Design
@@ -133,6 +120,9 @@ reading list, rate books, and get personalized recommendations
     - Financial 
     - Quality of life
     - Life vision
+
+
+
 
 #### Experts
 * The `Experts` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
