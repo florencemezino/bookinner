@@ -12,25 +12,25 @@
 End users for this project are readers who wants to focus on their personal development. 
 
 
-2.  Profile / Persona : Readers
+2.  Profile : Readers
 
-Readers want to focus on their personnal development and want to include more readings in their life. They want to take time to read more and share their recommendations. They want to have the possibility to buy, sell or simply exchange books.
+Readers who want to focus on their personnal development and want to include more readings in their life. They want to take time to read more and share their recommendations. They want to have the possibility to buy, sell or simply exchange books.
 
 
-* identity and behaviours
+a. identity and behaviours
 
 Readers interacting with the site are English speaker and we can determine different profiles :
 - beginner : users who read very rarely like 1 book every 6 months and wish to read more.
 - intermediate : users who read 1 book every month or two months and wants to read more.
-- advanced : user who reads several books a month and is keen to share their reviews online / interact with a community. They have a important recommendations books library and wish to sell or even exchange their books.
+- advanced : user who reads several books a month and is keen to share their recommendations online / interact with a community. They have a important recommendations books library and wish to sell or even exchange their books.
 
-* expectations 
+b. expectations 
 - Readers want to extend their knowledge on different dimensions of personal development such as nutrition, career, finance etc.
 - Readers have a strong willingness to integrate reading more books in their personal development.
 - Readers want to have access to a large library of books about personal development.
 - Readers wants to read reviews with great insights to esily choose their next reading
 
-* restraints
+c. restraints
 - Readers believe they don't have time to read
 - Readers feel overwhelmed about all the great books they could read and they don't dare to start
 - Beginner readers might feel impostor symdrome when seeing other reading progress and recommendations
@@ -51,19 +51,21 @@ Readers interacting with the site are English speaker and we can determine diffe
 
 * As a reader, I want to be encouraged to read more so that I can reach my reading goal 
 * As a reader, I want to see my reading goals progress so that I can be motivated to read more
-* As a reader, I want to be able to edit the book I uploaded online to sell so that I can market it better or remove it if it is sold out
+* As a reader, I want to be able to edit the book I uploaded online to sell so that I can market it better or remove it when it is sold out
 * As a reader, I want to recommend the books I read so that I can share my experience with the readers community
 
 3. Frequent User Goals
 
-* As a reader, I want to have to see the most likes/successful book on a certain period to not miss out so that I can be up to date about trendy readings
-* As a reader, i want to be able to vote 
+* As a reader, I want to see the most liked/successful/trendy books on a certain period to not miss out so that I can be up to date about trendy readings
+* As a reader, I want to be able to share book recommendation monthly so that it encourages me to read more to share my findings
 * As a reader, I want to be informed about new books releases so that I can potentially be the first to recommend great readings. 
 
 
 ### Design
 
 1. Colour Scheme
+
+The color scheme choosen is in blue , purple, grey tones as these colors reflects "knowledge", "trust", 'mind" in correlation with personal growth.
 
 The main colours used for this project are as follow : 
 " 
@@ -82,16 +84,17 @@ This color is used to catch the eye of the user to show some important informati
 * `#2A294A` : "Martinique" is a dark-grey color for the dark shades.
 This color is used for dark on ligh design and as background for inverted design.
 
-This color scheme has been choosen in blue , purple, grey tones as these colors reflects "knowledge", "trust", 'mind" in correlation with personal growth.
 
 2. Typography
-The `...` font is the main font used throughout the whole website with `sans-serif`
+The `Montserrat` font is the main font used throughout the whole website with `sans-serif`
 as fallback fonts in case for any reason the font isn't being imported into the site correctly. 
+The space between letters and the conforting shape makes `Montserrat`font a great choice for this website as it makes reading easy and accessible.
+
 
 3. Imagery / Video
 Imagery is important in this website in order to illustrate the books library and experts opinions
-* The large background of the main page [hero image]() is designed to be striking and catch the user's attention. It also has a ... aesthetic. 
-* Random web designs about topic "travel" were selected on a website called [Behance](ttps://www.behance.net) in order to illustrate website projects.
+* The large background of the main page [hero image]() is designed to be striking and catch the user's attention. It also gives a nice aesthetic. 
+* Free images from topic "reading" "books" "library" were selected on a website called [Pexel](https://www.pexels.com/fr-fr/) and [Unsplash](https://unsplash.com/login) in order to illustrate the books datatbase.
 
 ### Wireframes
 1. All Wireframes - [View]()
@@ -106,15 +109,15 @@ Imagery is important in this website in order to illustrate the books library an
 * There is a footer with copyright information and social media links.
 
 #### Books
-* The `Books` page features a special hero image. The purpose of this hero image element is to give maximum impact when opening the website.
+* The `Books` page features a slider with several hero image. The purpose of this hero image element is to give maximum impact when opening the website.
 * There is a navigation bar with a logo and a hamburger menu for mobile.
-* A caroussel will allow to slide to different pages to access the different sections of the website. On each slidewe will have a catchy heading and a button to the related section of the website.
+* A caroussel will allow to slide to different pages to access the different sections of the website. On each slide we will have a catchy heading and a button to the related section of the website.
 * A section called Bookflix will present a selection of books upvoted by the community for the month.
-* A section will present new release books.
+* A section "new release" will present the recent books added tot the platform.
 
 #### Dimensions
 * The `Dimensions` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
-* 12 dimensions
+* There are 12 dimensions for personal development 
     - Health and fitness
     - Intellectual
     - Emotionnal
@@ -127,8 +130,8 @@ Imagery is important in this website in order to illustrate the books library an
     - Financial 
     - Quality of life
     - Life vision
-* In each section, readers  can list list of books related to the genre.
-* From each book, users can add to their reading list (bookinner lab page) or be redirected to Amazon.
+* In each section, readers  can find a list of books related to the genre.
+* From each book, users has the option to add to their reading list (mybookinnerlab page) or be redirected to Amazon website.
 
 
 #### Experts
@@ -269,7 +272,7 @@ Readme.md sample from Code Institute [View](https://github.com/Code-Institute-So
 Readme.md sample from Anna Greaves's portrait artist [View](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
 * 
 * 
-* 
+
 
 ### Media
 * All photos and images were edited by the developer. 
