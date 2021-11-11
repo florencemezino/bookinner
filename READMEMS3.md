@@ -133,7 +133,7 @@ Imagery is important in this website in order to illustrate the books library an
 
 #### Experts
 * The `Experts` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
-* This page displays interviews about successful people and their readings recommandations
+* This page displays people and their readings recommandations
 * Users can find also multiples articles on how to integrate more reading into their life and make it part of their persoal development.
 For example : 10 ways to make mre time for reading
 
@@ -179,6 +179,7 @@ In the mobile version the navigation bar is turning into a hamburger menu for a 
 * Users can have access to an history of their activities. A record is accessible if they bought a book, exchange a book or leave a review etc.
 * Users can contact the website owner to request general information thanks to a contact form
 * Users receives a confirmation email once the contact form is completed.
+* Users can follow a profile from experts to receive recommendations by email
 
 ## Technologie Used 
 
