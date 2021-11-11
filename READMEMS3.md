@@ -14,15 +14,15 @@ End users for this project are readers who wants to focus on their personal deve
 
 2.  Profile / Persona : Readers
 
-Readers want to focus on their personnal development. They want to take time to read more and share their reviews. They want to have the possibility to buy, sell or simply exchange books.
+Readers want to focus on their personnal development and want to include more readings in their life. They want to take time to read more and share their recommendations. They want to have the possibility to buy, sell or simply exchange books.
 
 
 * identity and behaviours
 
 Readers interacting with the site are English speaker and we can determine different profiles :
-- beginner : user who reads very rarely like 1 book every 6 months and wish to read more.
-- intermediate : user who reads 1 book every month or two months and wants to read more.
-- advanced : user who reads several books a month and is keen to share their reviews online / interact with a community. They have a big library and wish even to sell or even exchange books.
+- beginner : users who read very rarely like 1 book every 6 months and wish to read more.
+- intermediate : users who read 1 book every month or two months and wants to read more.
+- advanced : user who reads several books a month and is keen to share their reviews online / interact with a community. They have a important recommendations books library and wish to sell or even exchange their books.
 
 * expectations 
 - Readers want to extend their knowledge on different dimensions of personal development such as nutrition, career, finance etc.
@@ -31,49 +31,58 @@ Readers interacting with the site are English speaker and we can determine diffe
 - Readers wants to read reviews with great insights to esily choose their next reading
 
 * restraints
-- 
+- Readers believe they don't have time to read
+- Readers feel overwhelmed about all the great books they could read and they don't dare to start
+- Beginner readers might feel impostor symdrome when seeing other reading progress and recommendations
 
-
-Below we can find more about their profile :
-
-* user who wants to read more as part of their personal development
-* user who wants to read book recommandations / reviews from experts to 
-* user who wants to have a space to leave reviews about their readings
 
 ### User stories
 
-useful, equitable, enjoyable, and usable experiences.
-
 1. First Time Visitor Goals
 
-* As a reader, I want to have access to a great book library online so that I can have plenty of choice for my next book to read
+* As a reader, I want to have access to a great book library online so that I can have plenty of choice to select my next book to read
 * As a reader, I want to buy a book in few steps so that I can progress quickly on my reading goals
-* As a reader, I want to have access to reviews about books so that it can help me to choose the next book to read
+* As a reader, I want to have access to recommendations about books so that it can help me to choose the next book to read
 * As a reader, I want to sell books I read already so that I can invest in buying new ones
 * As a reader, I want to exchange the books I read with other readers so that I can save money and interact with the readers community
 
 
 2. Returning Visitors Goals
 
-* As a reader, I want to be encouraged to read more so that I can reach my goal to read more
+* As a reader, I want to be encouraged to read more so that I can reach my reading goal 
 * As a reader, I want to see my reading goals progress so that I can be motivated to read more
-* As a reader, I want to be able to edit the book I uploaded online to sell so that I can market it better
-* As a reader, I want to leave a review about the books I read so that I can share my experience with the readers community
+* As a reader, I want to be able to edit the book I uploaded online to sell so that I can market it better or remove it if it is sold out
+* As a reader, I want to recommend the books I read so that I can share my experience with the readers community
 
 3. Frequent User Goals
 
-* As a reader, I want to have te possibility to interact with the ready community via the reviews so that I can get more more detailed insights about personal developement
-* As a reader, I want to be informed about books that we will be published soon so that I can stay up to date about interesting readings. 
+* As a reader, I want to have to see the most likes/successful book on a certain period to not miss out so that I can be up to date about trendy readings
+* As a reader, i want to be able to vote 
+* As a reader, I want to be informed about new books releases so that I can potentially be the first to recommend great readings. 
 
 
 ### Design
 
 1. Colour Scheme
-The main colours used for this project are as follow : 
-* `...`: blue
-* `...`: purple
-* `...`: white
 
+The main colours used for this project are as follow : 
+" 
+* `#EFE8F4`: "Whisper" is a color between the white and the grey for the light shades.
+This color will be used as the background for the dark on light designs and the text color of an inverted design
+
+* `#676990`: "Kimberly" is a grey-blue color for the light accent.
+This color is used to bring attention to design elements by contrasting with the rest of the palette.
+
+* `#748CC6`: "Ship cove" is a soft blue color and is used as a main brand color.
+This color is to catch the eye of the user but not in a hrsh way. It is applied to the main layout as it's main identity.
+
+* `#7920BA`: "Purple heart" is a deep bright purple for the dark accent.
+This color is used to catch the eye of the user to show some important information but it can be link also to temporrary information
+
+* `#2A294A` : "Martinique" is a dark-grey color for the dark shades.
+This color is used for dark on ligh design and as background for inverted design.
+
+This color scheme has been choosen in blue , purple, grey tones as these colors reflects "knowledge", "trust", 'mind" in correlation with personal growth.
 
 2. Typography
 The `...` font is the main font used throughout the whole website with `sans-serif`
@@ -91,19 +100,17 @@ Imagery is important in this website in order to illustrate the books library an
 4. Web Wireframes - [View]()
 
 ## Features
-* The website is structured in 4 pages : `Books`, `Dimensions`, `Experts`, `My InnerLab`.
+* The website is structured in 4 pages : `Books`, `Dimensions`, `Experts`, `My BookinnerLab`.
 * The website's pages and different features are responsive on all device sizes. 
 * Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
 * There is a footer with copyright information and social media links.
 
-reading list, rate books, and get personalized recommendations
-
 #### Books
 * The `Books` page features a special hero image. The purpose of this hero image element is to give maximum impact when opening the website.
-* There is a main heading in which you can read "Bookinner". The idea behind "Bookinner" is to reflect how reading books can impact someone inner self and contibute to their personnal development.
-* The sub heading is short, impactful and invite any users to invest time in reading. : "Become your best self"
-* 
-* 
+* There is a navigation bar with a logo and a hamburger menu for mobile.
+* A caroussel will allow to slide to different pages to access the different sections of the website. On each slidewe will have a catchy heading and a button to the related section of the website.
+* A section called Bookflix will present a selection of books upvoted by the community for the month.
+* A section will present new release books.
 
 #### Dimensions
 * The `Dimensions` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
@@ -120,8 +127,8 @@ reading list, rate books, and get personalized recommendations
     - Financial 
     - Quality of life
     - Life vision
-
-
+* In each section, readers  can list list of books related to the genre.
+* From each book, users can add to their reading list (bookinner lab page) or be redirected to Amazon.
 
 
 #### Experts
@@ -130,24 +137,15 @@ reading list, rate books, and get personalized recommendations
 * Users can find also multiples articles on how to integrate more reading into their life and make it part of their persoal development.
 For example : 10 ways to make mre time for reading
 
-#### My InnerLab
-* The `InnerLab` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
+#### MyBookinnerLab
+* The `Bookinnerlab` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
+* Users can find register option 
+* Users can find sign in option if they already have an account
 * Users can set their reading goals 
-* Users can build a reading list paired with a time tracker with reminders
-* Users can sell their books
-* Users can exchange their books
-* Users can give away their book in exchange of discounts
-* Users can have access to an history of their activities. A record is accessible if they bought a book, exchange a book or leave a review etc.
+* Users can make a list of favorite books to buy
+* Users can track their readings by amending the status of the book in their account (ie : status : reading or finished )
+* Users can sell their books to be listed in the dimensions and experts page and edit their entry
 
-
-* Users can learn more about the activity and the purpose of the website thanks to a small description.
-* Users can contact the website owner to request general information thanks to a contact form
-    - examples of request:
-        + 
-        + 
-        + 
-        + 
-* Users receives a confirmation email once the contact form is completed.
 
 ### Existing features 
 
@@ -173,13 +171,14 @@ In the mobile version the navigation bar is turning into a hamburger menu for a 
     - specificity 2 : 
 
 ### Features to implement in the future
-* 
-* 
-* 
-* 
-* 
-* 
-
+* Buy directly on the Bookinner platform directly and not go through affiliate link via Amazon
+* Leave reviews on the Bookinner platform directly and not collect reviews
+* Users can exchange their books
+* Users can give away their book in exchange of discounts
+* Users can build a reading list paired with a time tracker with reminders
+* Users can have access to an history of their activities. A record is accessible if they bought a book, exchange a book or leave a review etc.
+* Users can contact the website owner to request general information thanks to a contact form
+* Users receives a confirmation email once the contact form is completed.
 
 ## Technologie Used 
 
@@ -254,13 +253,14 @@ SECRET_KEY :
 * 
 * 
 
-4. InnerLab page
+4. MyBookinnerLab
 * 
 * 
 * 
 
 ### Content 
 * All content was written by the developer.
+* Color scheme was found on the website Colormind, you can view it [Here](http://colormind.io/)
 * Psychological properties of colours was found [Here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 * Psychological properties of fonts was found [Here](https://designmodo.com/font-psychology/)
 * Readme.md inspiration models : 
