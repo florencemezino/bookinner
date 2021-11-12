@@ -19,80 +19,98 @@
 
 <body>
 
-  <!-- navigation bar --> 
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Bookinner</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!-- navigation bar -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bookinner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Readflix</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">MyLab</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Go</button>
+          </form> 
+          <button class="btn btn-outline-primary" type="submit">Login</button>
+        </nav>
+    </header>
+    <!--./ navigation bar --> 
+
+
+    <!-- carousel-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/css/images/hero_book_3.jpeg" class="d-block w-100" alt="...">
+    
+            <div class="container">
+            <div class="carousel-caption text-start">
+                <h1>Find your inner power </h1>
+                <p>Discover personal development dimensions with your new read</p>
+                <p><a class="btn btn-lg btn-primary" href="categories.html">Explore</a></p>
+            </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/static/css/images/hero_book_2.jpeg" class="d-block w-100" alt="...">
+    
+            <div class="container">
+            <div class="carousel-caption">
+                <h1>Get inspired by our readers community</h1>
+                <p>Check out book recommendations from successful people</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse</a></p>
+            </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/static/css/images/hero_book_4.jpeg" class="d-block w-100" alt="...">
+    
+            <div class="container">
+            <div class="carousel-caption text-end">
+                <h1>Become the best version of you</h1>
+                <p>Unlock your potential and access your "MyLab" profile to reach your reading goal</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Log in</a></p>
+            </div>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Books</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="dimensions.html">Dimensions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="experts.html">Experts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mybookinnerlab.html">MyBookinnerLab</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!--./ navigation bar --> 
-
- <!-- slider -->
-
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/static/css/images/hero_book_3.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Find your inner power with your new read</h5>
-          <button type="button" class="btn-light btn-lg px-4 me-sm-3" onclick="window.open('dimensions.html','_self');">Explore</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/static/css/images/hero_book_2.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Get inspired by our experts</h5>
-          <button type="button" class="btn-light btn-lg px-4 me-sm-3" onclick="window.open('experts.html','_self');">Browse</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/static/css/images/hero_book_1.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Become the best version of yourself</h5>
-          <button type="button" class="btn-light btn-lg px-4 me-sm-3" onclick="window.open('experts.html','_self');">Sign up</button>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-<!--./ slider -->
+    <!--./ navigation bar --> 
 
 
  <!-- Bookflix ongoing month-->
+
+
  <!--./ Bookflix ongoing month -->
 
 
@@ -102,6 +120,10 @@
 
   <!-- new releases -->
  <!--./ new releases -->
+
+    <!-- articles -->
+ <!--./ articles -->
+
 
 
 <!-- footer-->
