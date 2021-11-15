@@ -18,6 +18,17 @@ def mongo_connect(url):
         print("Could not connect to MongoDB: %s") % e
 
 
+# MyReads filter status : All
+
+# MyReads filter status : Saved
+
+# MyReads filter status : Reading
+
+# MyReads filter status : Finished
+
+
+# MyReads filter status : Release (add new book)
+
 def add_book():
     print("")
     title = input("Enter book title > ")
@@ -46,6 +57,7 @@ def add_book():
         print("Error accessing the database")
 
 
+# MyReads filter : Release (edit book)
 def edit_book():
     doc = get_book()
     if doc:
@@ -65,7 +77,7 @@ def edit_book():
         except:
             print("Error accessing the database")
 
-
+# MyReads filter : Release (delete book)
 def delete_book():
     doc = get_book()
     if doc:

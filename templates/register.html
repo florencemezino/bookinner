@@ -6,7 +6,7 @@
 <div class="container">
     <div class= "row">
         <div class="col-md-12">
-            <form class="form-signin">
+            <form class="form-signin" method="POST" action="{{ url_for('log in') }}">
                 <img class="mb-4" src="" alt="" width="72" height="72">
                 <h1 class="h3 mb-3 font-weight-normal">Log in</h1>
                 <label for="inputName" class="sr-only">Name</label>
@@ -21,7 +21,7 @@
                 </label>
                 </div>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                <p class="mt-5 mb-3 text-muted">Already have an account,log in <a class="register" href="{{ url_for('log in') }}">here</a></p>
+                <p class="mt-5 mb-3 text-muted">Already registered ? <a class="register" href="{{ url_for('log in') }}">Log in</a></p>
             </form>
         </div>
     </div>
