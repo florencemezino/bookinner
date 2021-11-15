@@ -30,7 +30,7 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Readflix</a>
+                <a class="nav-link" aria-current="page" href="index.html">Books</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="categories.html">Categories</a>
@@ -85,21 +85,6 @@
       </div>
     </div> -->
 
-
-  <!-- MyLab : Level -->
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">Level</h1>
-          <p class="lead text-muted">What's hot this month? Hop into something comfy and binge our selection of trendy readings.</p>
-            <a href="#" class="btn btn-primary my-2">See previous releases</a>
-            <a href="#" class="btn btn-secondary my-2">Vote for your #1 in December</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-
   <!-- MyLab : Goal - Commitment -->
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
@@ -109,33 +94,36 @@
           </p>
           <form>
             <div class="mb-3">
-              <label for="exampleInputStatement1" class="form-label">I commit to complete reading the following number of books per year</label>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <label for="exampleInputStatement1" class="form-label form-commitment">I commit to complete reading the following number of books per year</label>
+              <!-- <div class="dropdown" >
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" required>
                   Select a number
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item beginner" href="#">between 1 - 12 books per year</a>
-                  <a class="dropdown-item intermediate" href="#">between 12- 24 books per year</a>
-                  <a class="dropdown-item experts" href="#">between 24 -36 books per year</a>
-                  <a class="dropdown-item masters" href="#">36+ books per year</a>
+                </button> -->
+              <a class="btn btn-md dropdown-toggle btn-secondary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select your level<span class="caret"></span></a>
+                <div id="dropdown-list" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item beginner" href="#">Beginner : between 1 - 12 books per year</a>
+                  <a class="dropdown-item intermediate" href="#">Intermediate : between 12 - 24 books per year</a>
+                  <a class="dropdown-item experts" href="#">Expert : between 24 - 36 books per year</a>
+                  <a class="dropdown-item masters" href="#">Master : 36+ books per year</a>
                 </div>
+                <div id="level-info"></div>
               </div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputStatement2" class="form-label">I choose to complete my reading commitment mentionned above because</label>
-              <input type="text" class="form-control" id="exampleInputStatement2" aria-describedby="commitmentHelp">
+              <label for="exampleInputStatement2" class="form-label form-commitment">I choose to complete my reading commitment mentionned above because</label>
+              <input type="text" class="form-control" id="exampleInputStatement2" aria-describedby="commitmentHelp" required>
             </div>
             <div class="mb-3">
-              <label for="exampleInputStatement3" class="form-label">When I run into obstacles or lack of motivation at some point, I will</label>
-              <input type="text" class="form-control" id="exampleInputStatement3">
+              <label for="exampleInputStatement3" class="form-label form-commitment">When I run into obstacles or lack of motivation at some point, I will</label>
+              <input type="text" class="form-control" id="exampleInputStatement3" required>
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">I will achieve my reading goal</label>
             </div>
-            <label for="exampleInputStatement2" class="form-label">Commit here by typing your name</label>
-            <input type="text" class="form-control" id="exampleInputStatement2" aria-describedby="commitmentHelp">
+            <label for="exampleInputStatement2" class="form-label form-commitment">Commit here by typing your name</label>
+            <input type="text" class="form-control" id="exampleInputStatement2" aria-describedby="commitmentHelp" required>
           </div>
 
           <div class="mb-3">

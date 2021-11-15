@@ -14,8 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="assets/css/style.css">
-    {% block styles %}
-    {% endblock %}
     <title>Bookinner</title>
 </head>
 
@@ -25,7 +23,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Bookinner</a>
+            <a class="navbar-brand" href="index.html">BOOKCYTOCIN</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -50,12 +48,11 @@
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-secondary" type="submit">Go</button>
           </form> 
-          <button class="btn btn-outline-primary" type="submit" >Login</button>
+          <a class="btn btn-md btn-outline-primary" href="/templates/register.html">Register</a>
+          <a class="btn btn-md btn-outline-success" href="/templates/login.html">Login</a>
+          <!-- <button class="btn btn-outline-primary" type="submit" >Login</button> -->
         </nav>
     </header>
-
-    {% block content %}
-    {% endblock %}
 
 
     <!-- carousel-->
