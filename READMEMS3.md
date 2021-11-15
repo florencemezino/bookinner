@@ -262,6 +262,9 @@ SECRET_KEY :
 * 
 * 
 
+5. General 
+* Werzeug security helpers [Here](https://werkzeug.palletsprojects.com/en/2.0.x/utils/#module-werkzeug.security)
+
 ### Content 
 * All content was written by the developer.
 * Color scheme was found on the website Colormind, you can view it [Here](http://colormind.io/)

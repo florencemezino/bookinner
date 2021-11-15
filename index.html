@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="assets/css/style.css">
+    {% block styles %}
+    {% endblock %}
     <title>Bookinner</title>
 </head>
 
@@ -51,6 +53,9 @@
           <button class="btn btn-outline-primary" type="submit">Login</button>
         </nav>
     </header>
+
+    {% block content %}
+    {% endblock %}
 
 
     <!-- carousel-->
