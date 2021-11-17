@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+          <form class="form-signin" method="POST" action="{{ url_for('login') }}">
+              <img class="mb-4" src="" alt="" width="72" height="72">
+              <h1 class="h3 mb-3 font-weight-normal">Log in</h1>
+              <label for="inputUsername" class="sr-only">Username</label>
+              <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+              <div class="checkbox mb-3">
+              <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+              </label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+              <p class="mt-5 mb-3 text-muted">No account yet ? Register <a class="register" href="{{ url_for('register') }}">here</a></p>
+          </form>
+      </div>
+  </div>
+</section>
+  
+{% endblock %}
+
+

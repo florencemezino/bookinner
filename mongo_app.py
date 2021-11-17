@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
 app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
-app.secret_key = os.environ.get("SECRET_KEY")
+app.secret_key = os.environ.get("mongodb+srv://florence:ek8ghyhy@clusterci.ouatk.mongodb.net/ms3DB?retryWrites=true&w=majority")
 
 mongo = PyMongo(app)
 
@@ -25,14 +25,14 @@ def get_books():
     return render_template("books.html", books=books)
 
 
-# books by category 
-@app.route("/category", methods=["GET", "POST"])
-def category():
+# books by collection 
+@app.route("/collection", methods=["GET", "POST"])
+def collection():
     if request.method == "POST":
-        books_by_category = mongo.db.users.find_many(
+        books_by_collection = mongo.db.users.find_many(
             {"books": request.form.get("books")})
         
-        if books_by_category:
+        if books_by_collection:
             flash("Username already exists")
             return redirect(url_for("books"))
 
@@ -44,13 +44,13 @@ def category():
 
 # books by community profile = recommendations
 
-@app.route("/category", methods=["GET", "POST"])
-def category():
+@app.route("/collection", methods=["GET", "POST"])
+def collection():
     if request.method == "POST":
-        books_by_category = mongo.db.users.find_many(
+        books_by_ccollection = mongo.db.users.find_many(
             {"books": request.form.get("books")})
         
-        if books_by_category:
+        if books_by_collection:
             flash("Username already exists")
             return redirect(url_for("books"))
 
@@ -67,20 +67,22 @@ def register():
     if request.method == "POST":
         # check if username already exists in db
         existing_user = mongo.db.users.find_one(
-            {"username": request.form.get("username").lower()})
+            {"username": request.form.get("username")
+            {"email": request.form.get("email")})
 
         if existing_user:
-            flash("Username already exists")
+            flash("User already exists")
             return redirect(url_for("register"))
 
         register = {
-            "username": request.form.get("username").lower(),
+            "username": request.form.get("username"),
+            "email": request.form.get("email"),
             "password": generate_password_hash(request.form.get("password"))
         }
         mongo.db.users.insert_one(register)
 
         # put the new user into 'session' cookie
-        session["user"] = request.form.get("username").lower()
+        session["user"] = request.form.get("username","email")
         flash("Registration Successful!")
     return render_template("register.html")
 
@@ -89,7 +91,7 @@ def register():
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
-        # check if username exists in db
+        # check if email exists in db
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 

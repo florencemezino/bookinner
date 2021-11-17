@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="assets/css/style.css">
-    <title>Bookinner</title>
+    <title>Bookcytocin</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Readflix</a>
+                  <a class="nav-link active" aria-current="page" href="base.html">Readflix</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="collections.html">Collections</a>
@@ -48,10 +48,23 @@
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-secondary" type="submit">Go</button>
           </form> 
-          <a class="btn btn-md btn-outline-primary" href="/templates/register.html">Register</a>
-          <a class="btn btn-md btn-outline-success" href="/templates/login.html">Login</a>
+          <a class="btn btn-md btn-outline-primary" href="{ url_for('register') }}">Register</a>
+          <a class="btn btn-md btn-outline-success" href="{ url_for('login') }}">Login</a>
         </nav>
     </header>
+
+    <!-- registration/log in flash messages-->
+    <section>
+      {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for messages in messages %}
+          <div class="row flashes">
+              <h4 class="center-align">{{message}}</h4>
+          </div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+    </section>
 
 
     <!-- carousel-->

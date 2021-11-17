@@ -6,7 +6,7 @@ if os.path.exists("env.py"):
 
 MONGO_URI = os.environ.get("MONGO_URI")
 DATABASE = "ms3DB"
-COLLECTION = "books"
+COLLECTION = "books", "users", "collections"
 
 
 def mongo_connect(url):
